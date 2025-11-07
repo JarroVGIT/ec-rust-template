@@ -1,0 +1,7 @@
+[alias]
+scaffold = "run --quiet --release -- scaffold"
+solve = "run --quiet --release -- solve"
+
+[env]
+EC_SEED = " " # The CLI will print your seed if you have not set it.
+EC_EVENT = "2025"
